@@ -1,0 +1,32 @@
+{% extends 'products/masterTemplate.html' %} {% load static%} {% block body %}
+<div class="content">
+    <header>
+        <h2>CATEGORIES</h2>
+    </header>
+    <div class="products_1">
+        {%for item in list2%}
+        <div class="product">
+            <header>{{item.name}}</header>
+            <a href="{% url 'products:filter_by_category' item.id %}"><img src="/media/{{item.path}}" alt=""></a>
+        </div>
+        {%endfor%}
+    </div>
+    <div>
+        <header>
+            <h2>OFFERS</h2>
+        </header>
+        <div class="offers">
+            {% for item in list %}
+            <a href="{% url 'products:detail_category' item.id %}">
+                <div class="itemOffer">
+                    <img src="/media/{{item.path}}" alt="" class="img_description">
+                    <div class="name">{{item.name}}</div>
+                    <div class="price">${{item.price}}</div>
+                    <div class="discount">{{item.discount}}%</div>
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock body %}

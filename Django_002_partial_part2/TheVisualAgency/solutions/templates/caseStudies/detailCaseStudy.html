@@ -1,0 +1,32 @@
+{% extends 'solutions/masterTemplate.html' %} {% load static%} {% block body %}
+<div class="content">
+    <header class="titulo">
+        <h1>{{item.name}}</h1>
+    </header>
+
+    <p>{{item.description}}</p>
+    <br>
+    <div class="description">
+        <div class="case-item">
+            <img src="/media/{{item.path}}"></img>
+        </div>
+        <div class="case-item">
+            <header>project objective:</header>
+            <p>{{item.projectObjective}}</p>
+        </div>
+        <div class="case-item">
+            <header>client benefit:</header>
+            <p>{{item.clientBenefit}}</p>
+        </div>
+        <div class="case-item">
+            <header>project result:</header>
+            <p>{{item.projectResult}}</p>
+        </div>
+        <div class="case-item">
+            <header>projectBackground</header>
+            <p>{{item.projectBackground}}</p>
+        </div>
+    </div>
+
+</div>
+{% endblock %}
