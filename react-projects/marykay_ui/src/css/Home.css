@@ -1,0 +1,41 @@
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    text-shadow: 1px 1px   rgb(235, 63, 152);
+    color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity));
+    font-family:'MyFont';
+    margin-bottom: 100px;
+}
+.logo{
+    width: 100px;
+}
+
+@font-face {
+    font-family: 'MyFont';
+    src: url(../fonts/newFont/static/PlayfairDisplay-Italic.ttf);
+}
+.card{
+    margin-top: 5px;
+    background-color: white;
+    color:grey;
+    text-decoration:wavy;
+    border: 3px solid grey;
+    
+}
+.card button{
+    color: black;
+    background-color:rgb(235, 63, 152) ;
+    border: none;
+    border-radius: 0%;
+    box-shadow: 3px 3px 0px 0px  rgb(90, 18, 71);
+}
+.card button:hover{
+    background-color: grey;
+    color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity));
+    box-shadow: 3px 3px 0px 0px  black;
+}
+.card button:focus{
+    background-color: grey;
+    color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity));
+    box-shadow: 3px 3px 0px 0px  black;
+}

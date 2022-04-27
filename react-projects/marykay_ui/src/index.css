@@ -1,0 +1,8 @@
+body {
+    margin: 0;
+    background: rgb(108, 58, 152);
+    background: linear-gradient(90deg, rgba(108, 58, 152, 1) 7%, rgba(219, 110, 210, 1) 37%, rgba(106, 58, 160, 1) 100%);
+}
+.navbarComponent{
+  margin-bottom: 100px;
+}
