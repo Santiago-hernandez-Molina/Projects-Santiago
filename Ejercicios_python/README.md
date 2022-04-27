@@ -1,2 +1,2 @@
-# Projects-Santiago
-this repository contains some projects made in python and java
+# Python-Exercises
+This repository contains some python files made for practice and learn python
