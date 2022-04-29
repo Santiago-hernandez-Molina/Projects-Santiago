@@ -1,6 +1,6 @@
 # Hardware-Store
 This Project contains the Django app that simulate a store, compared to others projects this added the login a logout method.
-In tHis work also participated: 
+In this work also participated: 
 -Jhon Alexis Piracoca Arcos(https://github.com/AlexisPiracoca).
 -Andres Felipe Diaz Silvera(https://github.com/AndresFelipeDiazSilvera).
 ![image](https://user-images.githubusercontent.com/62716464/165648055-0a565740-e112-448a-a5cd-90e2e9c795fd.png)
